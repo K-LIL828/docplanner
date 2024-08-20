@@ -1,0 +1,186 @@
+img{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+ol{
+    list-style: none;
+    color: rgb(16, 214, 181);
+    display: flex;
+}
+.making{
+    width: 70%;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.making img{
+    width: 50px;
+}
+.making h1{
+    color: rgb(51, 206, 206);
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.para{
+    margin: 20px 0px;
+    font-size: medium;
+}
+.carres{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.carre1{
+    width: 259px;
+    height: 365px;
+    background-color: #3bd6ce;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+.carre1 img{
+    width: 50px;
+}
+.carre1 p{
+    width: 150px;
+}
+.carre2{
+    width: 259px;
+    height: 365px;
+    background-color: #2c95db;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+.carre2 img{
+    width: 50px;
+}
+.carre2 p{
+    width: 150px;
+}
+.carre3{
+    width: 259px;
+    height: 356px;
+    background-color: #4400ff;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+}
+.carre3 img{
+    width: 50px;
+}
+.carre3 p{
+    width: 150px;
+}
+.option{
+    color: rgb(255, 255, 255);
+}
+.select{
+    border: none;
+    color: transparent;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto;
+}
+.footer h1{
+color: aquamarine;
+font-size: xx-large;
+}
+.jameda{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.jameda skar{
+    flex: 1 1 auto; 
+    /* width: 70px;
+    height: auto; */
+}
+.kbar {
+    width: 70px;
+}
+.voyage{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.voyage h1{
+    justify-content: center;
+    color: #00b39b;
+}
+.country{
+   width: 70%;
+   margin: 0 auto;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #ffffff; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+}
+.pp{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.country div{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.country img{
+    width: 100%;
+    height:70%; 
+    margin: 0 0 40px 0
+}
+h2{
+    color: grey;
+}
+.custom-button {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
